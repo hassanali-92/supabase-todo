@@ -9,7 +9,7 @@ const App = () => {
   const [loading, setLoading] = useState(true);
   const [emptyText, setEmptyText] = useState("");
 
-  const fullEmptyText = " No Tasks Yet..."; // 👈 Undefined fix
+  const fullEmptyText = "  No Tasks Yet..."; // 👈 Undefined fix
 
   // ─────────── FETCH TODOS ───────────
   const fetchData = async () => {
